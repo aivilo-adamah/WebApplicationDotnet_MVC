@@ -1,0 +1,101 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<h1 class="mb-3">Dashboard</h1>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card mb-3">
+            <div class="card-header bg-primary text-white">
+                <h4><i class="bi bi-people"></i> Utilisateurs</h4>
+            </div>
+            <div class="card-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Nom</th>
+                            <th>Email</th>
+                            <th>Rôle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>johndoe@example.com</td>
+                            <td>Admin</td>
+                        </tr>
+                        <tr>
+                            <td>Jane Doe</td>
+                            <td>janedoe@example.com</td>
+                            <td>User</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card mb-3">
+            <div class="card-header bg-success text-white">
+                <h4><i class="bi bi-cart3"></i> Commandes</h4>
+            </div>
+            <div class="card-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Date</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>001</td>
+                            <td>2022-05-01</td>
+                            <td>$50.00</td>
+                        </tr>
+                        <tr>
+                            <td>002</td>
+                            <td>2022-05-02</td>
+                            <td>$100.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card mb-3">
+            <div class="card-header bg-warning text-white">
+                <h4><i class="bi bi-currency-dollar"></i> Ventes</h4>
+            </div>
+            <div class="card-body">
+                <h1>$500.00</h1>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card mb-3">
+            <div class="card-header bg-danger text-white">
+                <h4><i class="bi bi-exclamation-octagon"></i> Erreurs</h4>
+            </div>
+            <div class="card-body">
+                <h1>2</h1>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card mb-3">
+            <div class="card-header bg-info text-white">
+                <h4><i class="bi bi-calendar3"></i> Événements</h4>
+            </div>
+            <div class="card-body">
+                <h1>5</h1>
+            </div>
+        </div>
+    </div>
+</div>

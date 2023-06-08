@@ -1,0 +1,69 @@
+﻿@{
+    ViewData["Title"] = "Liste des produits";
+}
+
+<h2>Liste des produits</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nom</th>
+            <th>Description</th>
+            <th>Prix</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Produit 1</td>
+            <td>Description du produit 1</td>
+            <td>10 €</td>
+            <td>
+                <a href="#"><i class="fas fa-edit"></i></a>
+                <a href="#"><i class="fas fa-trash"></i></a>
+            </td>
+        </tr>
+        <tr>
+            <td>Produit 2</td>
+            <td>Description du produit 2</td>
+            <td>20 €</td>
+            <td>
+                <a href="#"><i class="fas fa-edit"></i></a>
+                <a href="#"><i class="fas fa-trash"></i></a>
+            </td>
+        </tr>
+        <tr>
+            <td>Produit 3</td>
+            <td>Description du produit 3</td>
+            <td>30 €</td>
+            <td>
+                <a href="#"><i class="fas fa-edit"></i></a>
+                <a href="#"><i class="fas fa-trash"></i></a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<nav aria-label="Page navigation example">
+    <ul class="pagination">
+        <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Précédent</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+            <a class="page-link" href="#">Suivant</a>
+        </li>
+    </ul>
+</nav>
+
+<style>
+    .pagination {
+        margin-top: 20px;
+    }
+</style>
+
+@section Scripts {
+    <script src="https://kit.fontawesome.com/f04b069f75.js" crossorigin="anonymous"></script>
+}
